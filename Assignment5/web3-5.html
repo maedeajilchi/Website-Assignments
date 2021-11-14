@@ -1,0 +1,123 @@
+<html>
+<head>
+   <style>
+       body{
+        background-image: linear-gradient(to bottom right, red, blue);
+       }
+       div {
+              width:380px;
+              height: 550px;
+              position: fixed;
+              background-color: white;
+              top: 10%;
+              left: 40%;
+              text-align: center;
+              padding-top: 20px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+       }
+       h3{
+        margin-top: 50px;
+        margin-bottom: 40px;
+       }
+       input{
+
+              position: relative;
+              top: 30px;
+              width: 300px;
+              height: 50px;
+              padding: 15px;
+              background-color: rgba(224, 221, 212, 0.932);
+              border: none;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+        #remember{
+              position: absolute;
+              font-size: 14px;
+              color: rgb(175, 170, 170);
+              left: 57px;
+              margin-top: 25px;
+              font-family: 'Gautami';
+              top: 260px;
+        }
+        #checkbox{
+            
+            margin-top: 25px;
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 35px;
+            top: 260px;
+            
+        }
+        #login{
+            background-color: #eb1c8acc;
+            position: absolute;
+            top: 300px;
+            width: 300px;
+            height: 50px;
+            left: 40px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+        }
+        #login:hover{
+            background-color:rgba(126, 66, 78, 0.589) ;
+        }
+       #with{
+            position: relative;
+            top: 50px;
+            text-align: center;
+            color:rgb(175, 170, 170);
+        }
+        #buttons{
+              border-color: rgb(219, 216, 216);
+              width:130px ;
+              height: 30px;
+              top:360px;
+              margin-top: 50px;
+              border-style: solid;
+              border-width: 1px;
+              background-color: white;
+              font-size: 14px;
+              text-align: center;
+          }
+        
+          a{
+            color: rgb(175, 170, 170);
+            font-size: 14;
+
+          }
+          #member{
+            color: rgb(175, 170, 170);
+            font-size: 14;
+          }
+   </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h3><strong>LOGIN</strong></h3>
+            <input type="email" placeholder="&#9993    Email"><br>
+            <br>
+            <input  type="password" placeholder="&#128274    password "><br>
+            <input id="checkbox" type="checkbox"><p id="remember">Remember me</p>
+            
+            <br><br><br>
+            <input id="login" type="submit" value="LOGIN">
+            <br><br>
+            <p id="with">Or login with</p>
+            
+            <button id="buttons"><img src="f icon.png" height="15px">  <b>Facebook</b></button>
+            <button id="buttons" ><img src="g icon.png" height="15px">  <b>Google</b></button>
+            
+            <br><br>
+            <p id="member">Not a member? <a href="#">Sign up now</a></p>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
