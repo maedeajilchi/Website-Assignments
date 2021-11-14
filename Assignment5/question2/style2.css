@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    position: relative;
+    width: 480px;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+    left: 95%;
+  }
+  
+  .g1 {
+    background: #4285f4;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+  }
+  
+  .g1::before {
+    width: 70px;
+    height: 70px;
+    display: block;
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .g1 .detail {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    content: "";
+    display: block;
+    background: #4285f4;
+    right: 2px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .g1 .detail::before {
+    display: block;
+    content: "";
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 50px;
+    height: 15px;
+    right: -2px;
+    top: -15px;
+  }
+  
+  .g1 .detail::after {
+    display: block;
+    content: "";
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 20px;
+    height: 15px;
+    right: 2px;
+    top: -20px;
+    transform: rotate(-40deg);
+  }
+  
+  .o1 {
+    background: #f44242;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+  }
+  
+  .o1::before {
+    width: 45px;
+    height: 45px;
+    display: block;
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+  
+  .o2 {
+    background: #f3a806;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .o2::before {
+    width: 45px;
+    height: 45px;
+    display: block;
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .g2 {
+    position: relative;
+  }
+  
+  .g2 .base {
+    background: #4285f4;
+    width: 65px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .g2 .base::before {
+    width: 40px;
+    height: 45px;
+    display: block;
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+  
+  .g2 .detail {
+    width: 15px;
+    height: 60px;
+    background: #4285f4;
+    position: absolute;
+    right: -3px;
+    top:3px;
+  }
+  
+  .g2 .detail::before {
+    content: "";
+    background: rgb(255, 255, 255);
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -65px;
+    transform: rotate(-30deg);
+    top: 45px;
+    z-index: 10;
+  }
+  
+  .g2 .detail2 {
+    background: #4285f4;
+    width: 70px;
+    height: 75px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -35px;
+    z-index: -1;
+    right: -3px;
+  }
+  
+  .g2 .detail2::after {
+    display: block;
+    content: "";
+    position: absolute;
+    background: white;
+    width: 40px;
+    height: 45px;
+    border-radius: 100%;
+    z-index: -1;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .l {
+    width: 20px;
+    height: 100px;
+    background: #34a853;
+    margin-left: 5px;
+  }
+  
+  .e {
+    background: #f44242;
+    width: 65px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+  }
+  
+  .e::before {
+    width: 40px;
+    height: 45px;
+    display: block;
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .e .detail {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 15px;
+      height: 60px;
+      transform: rotate(70deg);
+      margin: auto;
+      left: 0;
+      top: -5px;
+      bottom: 0;
+      right: 0;
+      background: #F44242
+  }
+  
+  .e .detail2 {
+      content: "";
+      background: rgb(255, 255, 255);
+      display: block;
+      height: 15px;
+      width: 18px;
+      position: absolute;
+      top: 31px;
+      right: -5px;
+      transform: rotate(67deg);
+  }
+  
+  .e .detail2::before {
+      content: "";
+      background: rgb(255, 255, 255);
+      display: block;
+      width: 15px;
+      height: 18px;
+      position: absolute;
+      top: 5px;
+      right: -2px;
+      transform: rotate(50deg);
+  }
