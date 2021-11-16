@@ -1,0 +1,40 @@
+#menu{
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 231, 226);
+    height: 40px;
+    overflow:visible;
+}
+#menu li a{
+    text-decoration:none;
+    color: rgb(167, 18, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    font-size: 18px;
+    background-color: rgb(248, 246, 246);
+}
+#menu li{
+   float: left;
+    margin: 6px;
+}
+#menu li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.submenu{
+    list-style-type: none;
+    padding-left: 0px;
+    background-color:rgb(248, 246, 246);
+    display: none;
+    position: absolute;
+}
+#menu li:hover .submenu{
+    display: block;
+    padding: 5px;
+}
+#menu .submenu li{
+    float: none;
+    margin-top: 20px;
+}
