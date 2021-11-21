@@ -11,6 +11,26 @@ body{
     background-position: center;
     background-repeat:no-repeat;
 }
+.btnlearncss{
+  position:absolute;
+  border-style: solid;
+  border-color: rgb(250, 4, 4);
+  background-color: rgb(250, 0, 0);
+  padding: 10px;
+  padding-left:30px;
+  padding-right:30px;
+  text-transform: uppercase;
+  top: 830px;
+  left: 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.searchicon{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
 #nav{
     list-style-type: none;
     padding-left: 0px;
